@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<configurationDescriptor version="100">
+  <logicalFolder name="root" displayName="root" projectFiles="true" kind="ROOT">
+    <logicalFolder name="HeaderFiles"
+                   displayName="Header Files"
+                   projectFiles="true">
+      <itemPath>Headers/External_variables.h</itemPath>
+      <itemPath>Headers/Functions.h</itemPath>
+      <itemPath>Headers/Global_variables.h</itemPath>
+      <itemPath>Headers/Multiplication.h</itemPath>
+    </logicalFolder>
+    <logicalFolder name="ResourceFiles"
+                   displayName="Resource Files"
+                   projectFiles="true">
+    </logicalFolder>
+    <logicalFolder name="SourceFiles"
+                   displayName="Source Files"
+                   projectFiles="true">
+      <itemPath>Sources/Binary_Reformulation.cpp</itemPath>
+      <itemPath>Sources/Multiplication.cpp</itemPath>
+      <itemPath>Sources/Optimizations.cpp</itemPath>
+      <itemPath>Sources/Reading_LP_file.cpp</itemPath>
+      <itemPath>Sources/Solution_Vector.cpp</itemPath>
+      <itemPath>Sources/Write_Output.cpp</itemPath>
+      <itemPath>main.cpp</itemPath>
+    </logicalFolder>
+    <logicalFolder name="TestFiles"
+                   displayName="Test Files"
+                   projectFiles="false"
+                   kind="TEST_LOGICAL_FOLDER">
+    </logicalFolder>
+    <logicalFolder name="ExternalFiles"
+                   displayName="Important Files"
+                   projectFiles="false"
+                   kind="IMPORTANT_FILES_FOLDER">
+      <itemPath>Makefile</itemPath>
+    </logicalFolder>
+  </logicalFolder>
+  <projectmakefile>Makefile</projectmakefile>
+  <confs>
+    <conf name="Release" type="1">
+      <toolsSet>
+        <compilerSet>default</compilerSet>
+        <dependencyChecking>true</dependencyChecking>
+        <rebuildPropChanged>false</rebuildPropChanged>
+      </toolsSet>
+      <compileType>
+        <cTool>
+          <developmentMode>5</developmentMode>
+        </cTool>
+        <ccTool>
+          <developmentMode>5</developmentMode>
+          <standard>8</standard>
+          <incDir>
+            <pElem>/home/p/payman/Gurobi/gurobi902/linux64/include</pElem>
+            <pElem>Headers</pElem>
+          </incDir>
+          <preprocessorList>
+            <Elem>IL_STD</Elem>
+          </preprocessorList>
+          <warningLevel>0</warningLevel>
+        </ccTool>
+        <fortranCompilerTool>
+          <developmentMode>5</developmentMode>
+        </fortranCompilerTool>
+        <asmTool>
+          <developmentMode>5</developmentMode>
+        </asmTool>
+        <linkerTool>
+          <output>BRF_GRB</output>
+          <linkerAddLib>
+            <pElem>/home/p/payman/Gurobi/gurobi902/linux64/lib</pElem>
+          </linkerAddLib>
+          <linkerLibItems>
+            <linkerLibFileItem>/home/p/payman/Gurobi/gurobi902/linux64/lib/libgurobi_g++5.2.a</linkerLibFileItem>
+            <linkerLibFileItem>/home/p/payman/Gurobi/gurobi902/linux64/lib/libgurobi_c++.a</linkerLibFileItem>
+            <linkerLibFileItem>/home/p/payman/Gurobi/gurobi902/linux64/lib/libgurobi90.so</linkerLibFileItem>
+            <linkerLibLibItem>m</linkerLibLibItem>
+            <linkerLibLibItem>pthread</linkerLibLibItem>
+            <linkerLibLibItem>dl</linkerLibLibItem>
+          </linkerLibItems>
+        </linkerTool>
+      </compileType>
+      <item path="Headers/External_variables.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="Headers/Functions.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="Headers/Global_variables.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="Headers/Multiplication.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="Sources/Binary_Reformulation.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="Sources/Multiplication.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="Sources/Optimizations.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="Sources/Reading_LP_file.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="Sources/Solution_Vector.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="Sources/Write_Output.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="main.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+    </conf>
+    <conf name="Debug" type="1">
+      <toolsSet>
+        <compilerSet>default</compilerSet>
+        <dependencyChecking>true</dependencyChecking>
+        <rebuildPropChanged>false</rebuildPropChanged>
+      </toolsSet>
+      <compileType>
+        <ccTool>
+          <standard>8</standard>
+          <incDir>
+            <pElem>/home/p/payman/Gurobi/gurobi902/linux64/include</pElem>
+            <pElem>Headers</pElem>
+          </incDir>
+          <preprocessorList>
+            <Elem>IL_STD</Elem>
+          </preprocessorList>
+          <warningLevel>0</warningLevel>
+        </ccTool>
+        <linkerTool>
+          <output>BRF_GRB</output>
+          <linkerAddLib>
+            <pElem>/home/p/payman/Gurobi/gurobi902/linux64/lib</pElem>
+          </linkerAddLib>
+          <linkerLibItems>
+            <linkerLibFileItem>/home/p/payman/Gurobi/gurobi902/linux64/lib/libgurobi_g++5.2.a</linkerLibFileItem>
+            <linkerLibFileItem>/home/p/payman/Gurobi/gurobi902/linux64/lib/libgurobi_c++.a</linkerLibFileItem>
+            <linkerLibFileItem>/home/p/payman/Gurobi/gurobi902/linux64/lib/libgurobi90.so</linkerLibFileItem>
+            <linkerLibLibItem>m</linkerLibLibItem>
+            <linkerLibLibItem>pthread</linkerLibLibItem>
+            <linkerLibLibItem>dl</linkerLibLibItem>
+          </linkerLibItems>
+        </linkerTool>
+      </compileType>
+      <item path="Headers/External_variables.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="Headers/Functions.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="Headers/Global_variables.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="Headers/Multiplication.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="Sources/Binary_Reformulation.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="Sources/Multiplication.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="Sources/Optimizations.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="Sources/Reading_LP_file.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="Sources/Solution_Vector.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="Sources/Write_Output.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="main.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+    </conf>
+  </confs>
+</configurationDescriptor>
